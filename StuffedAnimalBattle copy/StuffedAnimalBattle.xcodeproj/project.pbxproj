@@ -98,17 +98,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91A03913192693C500468176 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				91A0390B192647DD00468176 /* Lift Off FX 001.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		91A03914192693D400468176 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				91AB4DB1192553E700809AC2 /* dragonRight.png */,
+				91AB4DAF192553C200809AC2 /* dragonpng.png */,
+				91AB4DA51925435500809AC2 /* Explosion.sks */,
+				91AB4DA61925435500809AC2 /* spark.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		91AB4D5E1924F66E00809AC2 = {
 			isa = PBXGroup;
 			children = (
+				91AB4DA9192543BC00809AC2 /* Fireball.sks */,
+				91A03914192693D400468176 /* Images */,
+				91A03913192693C500468176 /* Sounds */,
 				91A03911192667A600468176 /* dance.atlas */,
 				91A0390F192656CB00468176 /* char.atlas */,
-				91A0390B192647DD00468176 /* Lift Off FX 001.wav */,
-				91AB4DB1192553E700809AC2 /* dragonRight.png */,
-				91AB4DAF192553C200809AC2 /* dragonpng.png */,
-				91AB4DA9192543BC00809AC2 /* Fireball.sks */,
-				91AB4DA51925435500809AC2 /* Explosion.sks */,
-				91AB4DA61925435500809AC2 /* spark.png */,
 				91AB4D9C1924FBE500809AC2 /* SABGameScene.h */,
 				91AB4D9D1924FBE500809AC2 /* SABGameScene.m */,
 				91AB4D991924F6CB00809AC2 /* SABViewController.h */,

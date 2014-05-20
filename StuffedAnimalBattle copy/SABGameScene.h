@@ -10,6 +10,11 @@
 
 @interface SABGameScene : SKScene
 
--(void)buttonClick:(UIButton *) sender;
+-(void)buttonAClick:(UIButton *) sender;
+-(void)buttonBClick:(UIButton *)sender;
+-(void)buttonUp:(UIButton *)sender;
+-(void)buttonDown:(UIButton *)sender;
+-(void)buttonLeft:(UIButton *)sender;
+-(void)buttonRight:(UIButton *)sender;
 
 @end
